@@ -277,6 +277,16 @@ body {
   -webkit-box-shadow: 0 0 15px rgba(235, 233, 0, 0.3);
   box-shadow: 0 0 15px rgba(235, 233, 0, 0.3);
   font-weight: 700;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.banner__form .btn-indigo:hover {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  color: rgba(15, 7, 32, 0.8) !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .banner__form .card {
@@ -670,6 +680,16 @@ body {
   -webkit-box-shadow: 0 0 12px 0 #e2e000;
   box-shadow: 0 0 12px 0 #e2e000;
   font-weight: 700;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.faq .btn.btn-lg:hover {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  color: rgba(15, 7, 32, 0.8) !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 @media (max-width: 991.98px) {
@@ -944,4 +964,12 @@ body {
 
 .testimonial-card .card-up.blue-gradient {
   background: #ebe900 !important;
+}
+
+.color-dark_blue {
+  color: rgba(15, 7, 32, 0.8) !important;
+}
+
+.faq__item-top .arrow path {
+  stroke: rgba(15, 7, 32, 0.8);
 }
