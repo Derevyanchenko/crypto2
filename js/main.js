@@ -1,5 +1,13 @@
-$(function () {
+window.addEventListener('load', async () => {
+    let video = document.querySelector('video[autoplay]');
+    try {
+      await video.play();
+    } catch (err) {
+      video.controls = true;
+    }
+  });
 
+$(function () {
   // $("select").styler();
 
   var windowWidth = window.innerWidth;

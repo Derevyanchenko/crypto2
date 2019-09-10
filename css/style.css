@@ -166,6 +166,21 @@ body {
   background: #0c041c;
 }
 
+video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: -webkit-filter 0.2s linear 0s;
+  transition: -webkit-filter 0.2s linear 0s;
+  transition: filter 0.2s linear 0s;
+  transition: filter 0.2s linear 0s, -webkit-filter 0.2s linear 0s;
+  min-height: auto;
+  max-height: none;
+  min-width: auto;
+  max-width: none;
+}
+
 .logo {
   font-weight: 700;
   font-size: 24px;
@@ -635,13 +650,13 @@ body {
 .btn-gradient-blue {
   margin: auto;
   display: inline-block;
-  background-image: linear-gradient(40deg, #28BCFD 20%, #1D78FF 51%, #28BCFD 90%);
+  background-image: linear-gradient(40deg, #28bcfd 20%, #1d78ff 51%, #28bcfd 90%);
   background-position: left center;
   color: #fff;
   background-size: 200% auto;
   border: 0;
-  -webkit-box-shadow: 0 0 12px 0 #1F87FF;
-  box-shadow: 0 0 12px 0 #1F87FF;
+  -webkit-box-shadow: 0 0 12px 0 #1f87ff;
+  box-shadow: 0 0 12px 0 #1f87ff;
   font-size: 18px;
   letter-spacing: 1.2px;
   font-weight: 700;
