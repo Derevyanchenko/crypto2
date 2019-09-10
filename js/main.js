@@ -4,6 +4,7 @@ window.addEventListener('load', async () => {
       await video.play();
     } catch (err) {
       video.controls = true;
+      console.log("catch");
     }
   });
 
